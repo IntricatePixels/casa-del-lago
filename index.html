@@ -85,11 +85,15 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
         <img src="./index_files/casa_del_lago_logo_svg.svg" alt="English">
     </a>
         </div>
-        <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse ms-5 d-flex align-items-center justify-content-end" id="navbarSupportedContent">
                             <nav class="navbar navbar-expand-lg navbar-light navbar-megamenu" aria-label="Menu 1">
                     <div class="menu-menu-1-container"><ul id="menu-menu-1" class="navbar-nav me-auto mb-2 mb-lg-0"><li id="menu-item-285" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-285"><a href="https://stingray-app-noier.ondigitalocean.app/">Home</a></li>
 <li id="menu-item-698" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-698"><a href="https://stingray-app-noier.ondigitalocean.app/vila/">Vila</a></li>
 <li id="menu-item-699" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-699"><a href="https://stingray-app-noier.ondigitalocean.app/apartamente/">Apartamente</a></li>
+<li id="menu-item-713" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-713"><a href="https://casa.local/#">Rreth Nesh</a></li>
+<li id="menu-item-714" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-714"><a href="https://casa.local/#">Atraksione</a></li>
+<li id="menu-item-715" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-715"><a href="https://casa.local/#">Eksploro dhe Rezervo</a></li>
+<li id="menu-item-712" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-712"><a href="https://casa.local/#">Kontakt</a></li>
 </ul></div>
                 </nav>
             
@@ -112,54 +116,20 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <!--  -->
 
       <main id="main" class="main">
-                                                        <section id="hero-section" class="banner-pillar px-4 p-lg-5 in-page-section vh-100 position-relative" style="background-image: url(&#39;https://casa.local/wp-content/uploads/2024/06/1-1.jpg&#39;); background-size: cover; background-position: center center;" data-section-name="">
-                <video style="width: 100%;" id="hero-video" class="video-bg" playsinline="" muted="" autoplay="" loop="">
-            <source src="https://webdevbytes.com/casa-del-lago-site/video/casa.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-                <div class="container-1320 m-auto h-100">
-            <h1 class="mb-3 mb-lg-4 p-0 text-white position-absolute w-100 text-end" style="bottom: 10%; right: 10%;">
-                <span style="margin-right: 120px;">Your Oasis</span><br class="desktop-break">in the City
-            </h1>
-        </div>
+                                                        <section id="hero-section" class="banner-pillar in-page-section vh-100 position-relative" style="background-image:url(https://casa.local/wp-content/uploads/2024/06/1-1.jpg); background-size: cover;">
+           
+            <video style="width: 100vw; height: 100vh; object-fit: cover;" id="hero-video" class="video-bg" playsinline="" muted="" autoplay="" loop="">
+                <source src="https://webdevbytes.com/casa-del-lago-site/video/casa.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+       
+                <h1 class="text-white mb-3 mb-lg-4 position-absolute" style="bottom: 10%; right: 10%;z-index: 99999;"><span style="margin-right: 120px;">Your Oasis</span><br class="desktop-break">in the City</h1>
+
     </section>
-        <style>
-        .video-bg {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: opacity 1s ease-in-out;
-        }
-    </style>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var video = document.getElementById('hero-video');
-            var section = document.getElementById('hero-section');
-            
-            var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    
 
-            if (!isMobile) {
-                video.addEventListener('canplay', function() {
-                    console.log('Video can play now');
-                    video.style.opacity = '1';
-                    section.style.backgroundImage = 'none';
-                });
-
-                video.addEventListener('error', function(e) {
-                    console.error('Error loading video', e);
-                });
-            } else {
-                // Disable autoplay and hide video on mobile devices
-                video.removeAttribute('autoplay');
-                video.style.display = 'none';
-            }
-        });
-    </script>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <section id="header-2" class="block block-header-subtext py-5 white-bg">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <section id="header-2" class="block block-header-subtext py-5 white-bg">
         <div class="container">
             <div class="row">
                 <div class="col">
